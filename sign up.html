@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+        </a>
+    </header>
+    <nav>
+        <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background-color: rgb(238, 4, 4);color: white;">Bank Of America</h3>
+        <hr>
+        <table cellspacing="5" cellpadding="5">
+            <tr>
+                <td style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><a href="index.html">Home</a></td>
+                <td style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><a href="login.html">Login</a></td>
+                <td style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><a href="sign up.html">Sign Up</a></td>
+            </tr>
+        </table>
+    </nav>
+    <form action="results.html" method="get">
+        <div>
+            <label for="name" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Name :</label>
+            <input type="text" id="name" placeholder="Name" name="name" required>
+        </div>
+        <div>
+            <label for="email" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Email :</label>
+            <input type="email" id="email" placeholder="Email" name="email" required>
+        </div>
+        <div>
+            <label for="password" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Password :</label>
+            <input type="password" id="password" placeholder="Password" name="password" required>
+        </div>
+        <div>
+            <label for="date" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Birthdate</label>
+            <input type="date" name="date" id="date" min="2022-01-02" max="2022-12-31">
+        </div>
+        <div>
+            <label for="gender" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Gender</label>
+            <select name="gender" id="gender">
+                <option name="gender" id="male" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Male</option>
+                <option name="gender" id="male" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Female</option>
+                <option name="gender" id="male" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Other</option>
+            </select>
+        </div>
+        <button type="reset" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Reset</button>
+        <button type="submit" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Register</button>
+    </form>
+    <hr>
+    <footer style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background-color: rgb(238, 4, 4);color: white;">
+        &copy; 2022 Bank Of America
+    </footer>
+    <hr>
+</body>
+</html>
